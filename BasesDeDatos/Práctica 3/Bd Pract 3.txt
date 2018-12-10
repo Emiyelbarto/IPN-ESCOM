@@ -1,0 +1,82 @@
+CREATE DATABASE Estudiante;
+USE Estudiante
+
+CREATE TABLE Carrera (
+CveCarr int not null primary key,
+nomcarrera varchar(30)
+) ENGINE=InnoDB;
+
+CREATE TABLE Delegacion (
+Cvedeleg int not null primary key,
+Nomdeleg varchar(50)
+)ENGINE=InnoDB;
+
+CREATE TABLE Alumno (
+CveAlu INT PRIMARY KEY NOT NULL,
+appat VARCHAR (30),
+apmat VARCHAR (30),
+nompila VARCHAR (30),
+dir VARCHAR (50),
+FechaNac DATE, 
+cvedeleg INT,
+cvecarr INT,
+FOREIGN KEY (cvecarr) REFERENCES Carrera (cvecarr),
+FOREIGN KEY (cvedeleg) REFERENCES Delegacion (Cvedeleg)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+)ENGINE=InnoDB;
+
+INSERT INTO Carrera VALUES (1,'Ingenieria');
+INSERT INTO Carrera VALUES (2,'Ciencias');
+INSERT INTO Carrera VALUES (3,'Economia');
+INSERT INTO Carrera VALUES (4,'Sociales');
+INSERT INTO Carrera VALUES (5,'Medicina');
+
+INSERT INTO Delegacion VALUES (1,'Alvaro Obregon');
+INSERT INTO Delegacion VALUES (2,'Azcapotzalco');
+INSERT INTO Delegacion VALUES (3,'Benito Juarez');
+INSERT INTO Delegacion VALUES (4,'Coyoacan');
+INSERT INTO Delegacion VALUES (5,'Cuajimalpa');
+INSERT INTO Delegacion VALUES (6,'Cuauhtemoc');
+INSERT INTO Delegacion VALUES (7,'Gvo. A. Madero');
+INSERT INTO Delegacion VALUES (8,'Iztacalco');
+INSERT INTO Delegacion VALUES (9,'Iztapalapa');
+INSERT INTO Delegacion VALUES (10,'Magdalena Contreras');
+INSERT INTO Delegacion VALUES (11,'Miguel Hidalgo');
+INSERT INTO Delegacion VALUES (12,'Milpa Alta');
+INSERT INTO Delegacion VALUES (13,'Tlahuac');
+INSERT INTO Delegacion VALUES (14,'Tlalpan');
+INSERT INTO Delegacion VALUES (15,'Venustiano Carranza');
+INSERT INTO Delegacion VALUES (16,'Xochimilco');
+
+INSERT INTO Alumno VALUES (1,'Gonzalez','Galicia','Diana','Conocida 1','1993/01/05',1,1);
+INSERT INTO Alumno VALUES(2,'Hernandez','Fernandez','Elisa','Conocida 2','1993/05/24',2,1);
+INSERT INTO Alumno VALUES(3,'Sosa','Moreno','Sofia','Conocida 3','1993/02/01',3,1);
+INSERT INTO Alumno VALUES(4,'Diaz','Cuellar','Samy','Conocida 4','1993/07/07',4,1);
+INSERT INTO Alumno VALUES(5,'Gutierrez','Alvarez','Caty','Conocida 5','1992/12/22',5,2);
+INSERT INTO Alumno VALUES(6,'Gonzalez','Benitez','Adriana','Conocida 6','1992/01/18',6,2);
+INSERT INTO Alumno VALUES(7,'Hernandez','Castro','Sergio','Conocida 7','1970/01/14',7,2);
+INSERT INTO Alumno VALUES(8,'Sosa','Martinez','Coco','Conocida 8','1980/08/20',8,2);
+INSERT INTO Alumno VALUES(9,'Diaz','Galvan','Arturo','Conocida 9','1981/03/21',9,2);
+INSERT INTO Alumno VALUES(10,'Gutierrez','Canseco','Doris','Conocida 10','1981/11/22',10,2);
+INSERT INTO Alumno VALUES(11,'Gonzalez','Trujillo','Sofia','Conocida 11','1982/03/23',11,3);
+INSERT INTO Alumno VALUES(12,'Hernandez','Galicia','Jose','Conocida 12','1982/08/17',12,3);
+INSERT INTO Alumno VALUES(13,'Sosa','Fernandez','Laura','Conocida 13','1983/09/18',13,3);
+INSERT INTO Alumno VALUES(14,'Diaz','Moreno','Cris','Conocida 14','1983/11/19',14,3);
+INSERT INTO Alumno VALUES(15,'Gutierrez','Cuellar','Victor','Conocida 25','1984/07/15',15,3);
+INSERT INTO Alumno VALUES(16,'Gonzalez','Alvarez','Roberto','Conocida 16','1984/06/21',16,4);
+INSERT INTO Alumno VALUES(17,'Hernandez','Benitez','Jeny','Conocida 17','1985/09/22',1,4);
+INSERT INTO Alumno VALUES(18,'Sosa','Castro','Dafne','Conocida 18','1985/10/20',2,4);
+INSERT INTO Alumno VALUES(19,'Diaz','Martinez','Gustavo','Conocida 19','1986/01/18',3,4);
+INSERT INTO Alumno VALUES(20,'Gutierrez','Galvan','Viridiana','Conocida 20','1986/01/14',4,4);
+INSERT INTO Alumno VALUES(21,'Gonzalez','Canseco','Eduardo','Conocida 21','1987/05/20',5,5);
+INSERT INTO Alumno VALUES(22,'Hernandez','Trujillo','Eulalia','Conocida 22','1987/06/21',6,5);
+INSERT INTO Alumno VALUES(23,'Sosa','Zapata','Jose Luis','Conocida 23','1988/02/18',7,5);
+INSERT INTO Alumno VALUES(24,'Diaz','Vidales','Alfonso','Conocida 24','1988/03/05',8,5);
+INSERT INTO Alumno VALUES(25,'Gutierrez','Martinez','Jorge','Conocida 25','1980/12/20',9,5);
+INSERT INTO Alumno VALUES(26,'Gonzalez','Galvan','Miriam','Conocida 26','1981/12/21',10,1);
+INSERT INTO Alumno VALUES(27,'Hernandez','Canseco','Minerva','Conocida 27','1981/11/22',11,2);
+INSERT INTO Alumno VALUES(28,'Sosa','Trujillo','Daniela','Conocida 28','1981/10/18',12,3);
+INSERT INTO Alumno VALUES(29,'Diaz','Bueno','Miranda','Conocida 29','1983/02/01',13,4);
+INSERT INTO Alumno VALUES(30,'Gutierrez','Seis','Yesenia','Conocida 30','1981/08/21',14,5);
+
