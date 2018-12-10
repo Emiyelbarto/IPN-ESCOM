@@ -1,0 +1,9 @@
+Segundo ejercicio en clase:
+
+-Crear un script en python y en bash que realice
+-una verificación, para saber que computadora del 
+-laboratorio estan conectadas a la red (a través de ping).
+
+A) A todas aquellas computadoras que repondan al ping se les almacenará 
+en un arreglo llamado activas. A estas computadoras se les enviará el script
+anterior.

@@ -1,0 +1,6 @@
+Hacer un programa en el que un proceso padre haga dos procesos hijos, el hijo
+izquierdo debe de generar tres hijos, el segundo hijo debe de generar 4 hijos
+y así sucesivamente, el usuario debe de dictar el nivel en el cual debe 
+de parar.
+
+Se debe de mostrar el nivel en el que se encuentra con una identacion.
