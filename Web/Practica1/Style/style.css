@@ -1,0 +1,128 @@
+body
+{
+  background-color: #DCE5E5;
+  color: #CC3300;
+  font-family: consolas;
+}
+
+div.encabezado
+{
+    background-color: #474747;
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: 20px;
+    color: #DCE5E5;
+    border-color: #330000;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: solid;
+    padding:0.5em;
+    text-align:right;
+    font-size:3em;
+    margin: 0;
+}
+
+
+
+table.menu-principal
+{
+  border: 0;
+  border-color: #FFFFFF;
+  width: 20%;
+}
+
+
+a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+a:hover
+{
+    color: #C50000;
+}
+
+td.item
+{
+  color: white;
+  font-family: Arial;
+  font-size: 9px;
+  font-weight: normal;
+  background-color: #C50000;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px
+}
+
+td.item:hover
+{
+  color: #C50000;
+  font-family: Arial;
+  font-size: 9px;
+  font-weight: normal;
+  background-color: #E3D3A4;
+  text-align: center;
+}
+
+
+.contenido
+{
+    text-align: justify;
+
+}
+
+
+table.tabla1
+{
+    width: 50%;
+    border: 3px solid;
+    font-family: tahoma;
+    border-color: #FF6633
+
+}
+
+table.tabla1 th
+{
+    border: 1px solid ;
+    background: #FF9933;
+    color: black;
+
+}
+
+table.tabla1 td
+{
+    text-align: center;
+    border: 1px solid;
+}
+
+
+iframe.right
+{
+    float: right;
+    padding:15px;
+    width: 408px;
+    height: 216px;
+    border: none;
+}
+
+img.left
+{
+    float: left;
+    padding:0.5em;
+    width:400px;
+    height: 155px;
+
+}
+
+
+iframe
+{
+    width: 408px;
+    height: 216px;
+    border: none;
+
+}
