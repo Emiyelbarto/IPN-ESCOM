@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Practica 3</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+	<img src="Images/Logo.jpg" width="250" height="250" alt="Logo">
+	<br/>
+	Declaration: I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and I undertake to inform you of any changes there in, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held liable for it. 
+	<form name="Pasaporte1" method="GET" action="procesar.js" id="Pasaporte1">
+		<table>
+			<tr>
+				<td class="Info">1.- Nacionalidad:</td>
+				<td>
+					<select id="Nacionalidad" style="margin-bottom: auto;">
+						<option value="Mexicano">Mexicano</option>
+						<option value="Gringo">Gringo</option>
+						<option value="Frances">Frances</option>
+						<option value="Espaniol">Español</option>
+					</select><br/>
+					<textarea id="Comentario" rows="5" placeholder="Escribe porque perdiste tu nacionalidad o si eres terrorista."></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>2.- Apellido Paterno: </td>
+				<td><input type="text" name="ApPat"/></td>
+			</tr>
+			<tr>
+				<td>3.- Apellido Materno y Nombre Completo: </td>
+				<td><input type="text" name="Nombres"/></td>
+			</tr>
+			<tr>
+				<td>4.- Fecha de Nacimiento: </td>
+				<td><input type="date" name="FechaNac"/></td>
+			</tr>
+			<tr>
+				<td>5.- Sexo: </td>
+				<td>
+					<label for="Hombre">Masculino</label><input type="radio" id="male" value="masculino" name="sexo"/><br/>
+					<label for="Mujer">Femenino</label><input type="radio" id="woman" value="femenino" name="sexo"/>
+				</td>
+			</tr>
+			<tr>
+				<td>6.- Motivo de visita: </td>
+				<td>
+					<select id="Motivo" style="margin-bottom: auto;">
+						<option value="TURISMO">TURISMO</option>
+						<option value="TRABAJO">TRABAJO</option>
+						<option value="AMOR">AMOR</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>7.- Categoría y tipo de visa: </td>
+				<td>
+					<select id="Visa" style="margin-bottom: auto;">
+						<option value="TURISTA">TURISTA</option>
+						<option value="EMBAJADOR">EMBAJADOR</option>
+						<option value="EMPRESARIO">EMPRESARIO</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>8.- Numero de entradas: </td>
+				<td>
+					<label for="Una">Solo Entrada<input type="radio" id="Uno" value="uno" name="Entrada"/></label><br/>
+					<label for="Dos">Doble Entrada<input type="radio" id="Dos" value="dos" name="EnySal"/></label><br/>
+					<label for="Dos">Multiple Entrada<input type="radio" id="Dos" value="dos" name="EnySal"/></label>
+				</td>
+			</tr>
+			<tr>
+				<td>9.- Fecha de entrada a Rusia: </td>
+				<td><input type="date" name="FechaEntrada"></td>
+			</tr>
+			<tr>
+				<td>10.- Fecha de salida de Rusia: </td>
+				<td><input type="date" name="FechaSalida"></td>
+			</tr>
+			<tr>
+				<td>11.- Numero de pasaporte: </td>
+				<td>
+					<input type="text" name="NumPass"><br/>
+					Fecha de Solicitud: <br/>
+					<input type="date" name="FechaSolPass"><br/>
+					Entregado por: <br>
+					<input type="text" name="EntregaPass"><br>
+					Válido hasta: <br>
+					<input type="date" name="FechaVencePass">
+				</td>
+			</tr>
+			<tr>
+				<td>12.- Tipo de pasaporte: </td>
+				<td>
+					<select id="TipoPassport" style="margin-bottom: auto;">
+						<option value="DIPLOMATICO">TURISTA</option>
+						<option value="OFICIAL">EMBAJADOR</option>
+						<option value="TURISTA">EMPRESARIO</option>
+						<option value="OTRO">OTRO<br/> Por favor Indicar que tipo<input type="text" name="TipoPasaporte"/></option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>13.- Organización Rusa o institución a ser visitada (Para turistas - Nombre y numero de referencia de la compañía huesped, para empresarios - nombre de la organización huesped, pueblo o personas.): </td>
+				<td><textarea id="Org" rows="7" cols="40" placeholder="Escribe la organización."></textarea></td>
+			</tr>
+			<tr>
+				<td>14.- Itinerario (Lugares a visitar): </td>
+				<td><input type="text" name="LugaresVisitar"/></td>
+			</tr>
+			<tr>
+				<td>***15.- ¿Tiene un seguro médico válido en Rusia? </td>
+				<td>
+					<label for="SegMedico">Si<input type="checkbox" id="Medico" value="YES" name="Med"/></label><br/>
+					Especifique cual:<br/><input type="text" name="TipoSegMedico"/>
+				</td>
+			</tr>
+			<tr>
+				<td>16.- ¿Quién pagará su viaje y estadia en Rusia? </td>
+				<td><input type="text" name="PagoViaje"/></td>
+			</tr>
+			<tr>
+				<td>17.- Estado legal: </td>
+				<td>
+					<select id="EstadoLegal" style="margin-bottom: auto;">
+						<option value="CASADO">CASADO</option>
+						<option value="DIVORCIADO">DIVORCIADO</option>
+						<option value="SOLTERO">SOLTERO</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>18.- Nombre de esposa (si divorciado o viudo, indicar el nombre de la señorita si es aplicable): </td>
+				<td><input type="text" name="NomEsposa"></td>
+			</tr>
+			<tr>
+				<td>19.- Fecha de Nacimiento de la esposa: </td>
+				<td><input type="date" name="FechaNacEsposa"></td>
+			</tr>
+			<tr>
+				<td>20.- Lugar de Nacimiento de la Esposa: </td>
+				<td><input type="text" name="LugarNacEsposa"></td>
+			</tr>
+			<tr>
+				<td>***21.- Nombre completo de su Padre: </td>
+				<td><input type="text" name="NombrePadre"></td>
+			</tr>
+			<tr>
+				<td>***22.- Nombre completo de su Madre: </td>
+				<td><input type="text" name="NombreMadre"></td>
+			</tr>
+			<tr>
+				<td>23.- ¿Ha solicitado una visa Rusa? (¿Dónde y cuándo?)</td>
+				<td>
+					<label for="SolVisaRusa">Si<input type="checkbox" id="VisaRusa" value="YES" name="VisRusa"/></label><br/>
+					Especifique cuando:<br/><input type="date" name="FechaSolVisaRusa"/>
+				</td>
+			</tr>
+			<tr>
+				<td>***24.- ¿Ha perdido alguna vez su pasaporte? </td>
+				<td>
+					<select id="PassLost" style="margin-bottom: auto;">
+						<option value="SI">SI</option>
+						<option value="NO">NO</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>***25.- Liste todos los países que ha visitado en los últimos 10 años y su año de visita: </td>
+				<td><textarea></textarea></td>
+			</tr>
+			<tr>
+				<td>***26.- Liste todos los países a los que ha solicitado un pasaporte: </td>
+				<td><textarea id="Visitas" rows="7" cols="40" placeholder="Escribe los paises."></textarea></td>
+			</tr>
+		</table>
+		<div style="text-align: center;">
+			<input type="submit"/>
+			<input type="reset"/>			
+		</div>
+	</form>
+	<footer>
+		Página creada por José Emiliano Pérez Garduño para la materia de "Tecnologías para la Web".
+	</footer>
+</body>
+</html>

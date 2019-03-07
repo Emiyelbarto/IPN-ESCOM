@@ -1,0 +1,53 @@
+h1,h2{
+  margin:0;
+}
+
+h2{
+  font-style:italic;
+}
+
+body{
+  background:black;
+  font-family: Arial, serif;
+}
+
+#main
+{
+	color: white;
+}
+
+#close {
+  max-width: 500px;
+  margin:30px auto;
+}
+
+.infoPic {
+  height:300px;
+  margin:auto;
+}
+
+.row {
+  margin:20px 0px;
+}
+
+li{
+  font-size:1.2em;
+}
+
+.timelinePic{
+  padding:5px;
+}
+
+blockquote{
+  border-top: #9e9782 solid 1px;
+  border-bottom: #9e9782 solid 1px;
+}
+
+.meTag{
+  margin:10px;
+  color:white;
+}
+
+.meTag a{
+  color:#33ff00;
+}

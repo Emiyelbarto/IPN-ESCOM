@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <title>Ejemplo de Formularios</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <form name="form01" method="get" action="www.mipagina.com/procesa.jsp" id="form01">
+    <table style="border: black 1px solid ;margin:0 auto; box-shadow: 5px 5px 10px #999;  border-radius: 10px; ">
+     <caption><strong>Envíame tus datos para conocerte</strong></caption>
+      <tr>
+          <td><label for="nombre">Nombre</label></td>
+          <td><input type="text" id="nombre" required placeholder="Escriba su nombre" name="nombre"/></td>
+          <td rowspan="9"><img src="imagenes/gal.jpg" width="275" height="485" alt="Vanessa"></td>
+      </tr>
+
+      <tr>
+        <td><label for="paterno">A. Paterno</label></td>
+        <td><input type="text" id="paterno" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="materno">A. Materno</label></td>
+        <td><input type="text" id="materno" value="Trujillo" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="correo">E-Mail</label></td>
+        <td><input type="email" id="correo" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="foto">Foto</label></td>
+        <td><input type="file" id="foto" accept="image/jpeg,image/gif" /></td>
+      </tr>
+
+      <tr>
+        <td>Sexo: </td>
+        <td><label for="male">Masculino</label><input type="radio" id="male" value="masculino" name="sexo" />
+            <label for="female">Femenino</label><input type="radio" id="female" value="femenino"  name="sexo" checked /></td>
+      </tr>
+
+      <tr>
+        <td>Idiomas</td>
+           <td><label for="english">Inglés</label><input type="checkbox" value="ingles"  id="english"  />
+               <label for="french">Francés</label><input type="checkbox" value="frances" id="french"  /></td>
+      </tr>
+
+      <tr>
+        <td><label for="delegacion">Delegación</label></td>
+
+        <td><select id="delegacion">
+          <option value="Azcapotzalco">
+            Azcapotzalco
+          </option>
+
+          <option value="Benito Juárez" selected>
+             Juárez García
+          </option>
+
+          <option value="Iztacalco">
+            Iztacalco
+          </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="comentario">Comentario</label></td>
+        <td><textarea id="comentario" rows="10" placeholder="Deja tu comentario" ></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan ="3" style="text-align: center;">
+           <input type="hidden" id="oculto" name="oculto"value="123"/>
+           <input  type="submit"/>
+          <input   type="reset" />
+         </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
