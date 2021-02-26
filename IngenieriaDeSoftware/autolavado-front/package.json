@@ -1,0 +1,38 @@
+{
+  "name": "autolavado-front",
+  "version": "1.0.0",
+  "description": "Proyecto de autolavado usando NuxtJS para front",
+  "author": "Emiliano Perez",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "fix:pages": "eslint --fix --ext .vue ./pages",
+    "fix:components": "eslint --fix --ext .vue ./components",
+    "fix:layouts": "eslint --fix --ext .vue ./layouts",
+    "fix": "npm run fix:pages && npm run fix:components && npm run fix:layouts"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "nuxt": "^2.14.4",
+    "vuesax": "^4.0.1-alpha.8"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nuxt-purgecss": "^1.0.0",
+    "nuxt-webfontloader": "^1.1.0",
+    "prettier": "^1.19.1"
+  }
+}
