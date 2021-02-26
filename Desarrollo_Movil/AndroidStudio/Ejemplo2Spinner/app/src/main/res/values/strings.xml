@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ejemplo2Spinner</string>
+    <string name="spinner_title">Titulo Spinner</string>
+</resources>

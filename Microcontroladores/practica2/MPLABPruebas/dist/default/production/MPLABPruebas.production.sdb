@@ -1,0 +1,248 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"29 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+[v _printMenu printMenu `(v  1 e 1 0 ]
+"38
+[v _seleccionarMultimetroDC seleccionarMultimetroDC `(v  1 e 1 0 ]
+"47
+[v _seleccionarMultimetroAC seleccionarMultimetroAC `(v  1 e 1 0 ]
+"56
+[v _seleccionarTemperatura seleccionarTemperatura `(v  1 e 1 0 ]
+"66
+[v _mostrarError mostrarError `(v  1 e 1 0 ]
+"75
+[v _medirVoltajeDC medirVoltajeDC `(v  1 e 1 0 ]
+"81
+[v _iniciarPullUp iniciarPullUp `(v  1 e 1 0 ]
+"91
+[v _ADCInit ADCInit `(v  1 e 1 0 ]
+"101
+[v _ADCRead ADCRead `(ui  1 e 2 0 ]
+"124
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"142
+[v _canal0 canal0 `(v  1 e 1 0 ]
+"36 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"58
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"67
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"74
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"93
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"112
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"129
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"26 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+[v _main main `(i  1 e 2 0 ]
+"59 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1238
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1245
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1346
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1862
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"2970
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2977
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3587
+[v _ADIF ADIF `VEb  1 e 0 @102 ]
+"3590
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"3818
+[v _CHS0 CHS0 `VEb  1 e 0 @250 ]
+"3821
+[v _CHS1 CHS1 `VEb  1 e 0 @251 ]
+"3824
+[v _CHS2 CHS2 `VEb  1 e 0 @252 ]
+"3899
+[v _GO GO `VEb  1 e 0 @249 ]
+"4103
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"4106
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"4109
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"4181
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"4184
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"4187
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4193
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4196
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4199
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4202
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"27 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+[v _ADRES ADRES `i  1 e 2 0 ]
+"26 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"56
+[v main@c c `i  1 a 2 11 ]
+"48
+[v main@b b `i  1 a 2 9 ]
+"39
+[v main@a a `i  1 a 2 7 ]
+"28
+[v main@flag flag `i  1 a 2 5 ]
+"67
+} 0
+"56 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+[v _seleccionarTemperatura seleccionarTemperatura `(v  1 e 1 0 ]
+{
+"64
+} 0
+"38
+[v _seleccionarMultimetroDC seleccionarMultimetroDC `(v  1 e 1 0 ]
+{
+"45
+} 0
+"47
+[v _seleccionarMultimetroAC seleccionarMultimetroAC `(v  1 e 1 0 ]
+{
+"54
+} 0
+"29
+[v _printMenu printMenu `(v  1 e 1 0 ]
+{
+"36
+} 0
+"66
+[v _mostrarError mostrarError `(v  1 e 1 0 ]
+{
+"73
+} 0
+"129 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+[v Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"130
+[v Lcd_Write_String@i i `i  1 a 2 5 ]
+"129
+[v Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"131
+[v Lcd_Write_String@a a `*.24uc  1 a 1 7 ]
+"133
+} 0
+"112
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"114
+[v Lcd_Write_Char@y y `uc  1 a 1 3 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 2 ]
+"112
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+[v Lcd_Write_Char@a a `uc  1 a 1 4 ]
+"127
+} 0
+"74
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"76
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 10 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 9 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 8 ]
+"74
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 4 ]
+[v Lcd_Set_Cursor@a a `uc  1 a 1 7 ]
+"91
+} 0
+"67
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"72
+} 0
+"75 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+[v _medirVoltajeDC medirVoltajeDC `(v  1 e 1 0 ]
+{
+"79
+} 0
+"101
+[v _ADCRead ADCRead `(ui  1 e 2 0 ]
+{
+"122
+} 0
+"142
+[v _canal0 canal0 `(v  1 e 1 0 ]
+{
+[v canal0@z z `i  1 p 2 10 ]
+"161
+} 0
+"124
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+"125
+[v delay_ms@i i `l  1 a 4 6 ]
+"124
+[v delay_ms@time time `i  1 p 2 0 ]
+"140
+} 0
+"81
+[v _iniciarPullUp iniciarPullUp `(v  1 e 1 0 ]
+{
+"89
+} 0
+"93 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"110
+} 0
+"58
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 3 ]
+"65
+} 0
+"36
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 0 ]
+"56
+} 0
+"91 B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+[v _ADCInit ADCInit `(v  1 e 1 0 ]
+{
+"99
+} 0

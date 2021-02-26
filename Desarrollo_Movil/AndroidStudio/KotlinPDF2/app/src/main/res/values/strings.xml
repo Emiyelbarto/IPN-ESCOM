@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinPDF2</string>
+    <string name="input">Introducir cadena o mostrar null!</string>
+    <string name="verificacion">verificacion</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MapasEjercicio1</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Btn_Satelite">Satelite</string>
+    <string name="satelite">Satelite</string>
+    <string name="centrar">Centrar</string>
+    <string name="animar">Animar</string>
+    <string name="mover">Mover</string>
+</resources>

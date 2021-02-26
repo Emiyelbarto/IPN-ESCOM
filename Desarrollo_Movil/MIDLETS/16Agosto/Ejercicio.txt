@@ -1,0 +1,4 @@
+Ejercicio:
+Dibujar en canvas un cuadro (puede ser relleno o sólo el perimetro) con una 
+circunferencia del mismo tamaño dentro, la cuál tendrá otro cuadrado e igual un círculo dentro 
+n veces.

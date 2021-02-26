@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinPDF1</string>
+    <string name="input">Escribir un valor para verificar si es nulo o no</string>
+    <string name="comprobar">COMPROBAR</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/posicion_actual"/>
+
+    <EditText
+        android:id="@+id/Latitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:text="Latitud: "/>
+
+    <EditText
+        android:id="@+id/Longitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:text="Longitud: "/>
+
+    <EditText
+        android:id="@+id/Precision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:text="Precision: "/>
+
+    <Button
+        android:id="@+id/BtnActivar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar"/>
+    
+    <Button
+        android:id="@+id/BtnDesactivar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desactivar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado Proveedor:"/>
+
+    <EditText
+        android:id="@+id/Proveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provider Status: "/>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Numero Factorial"/>
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="bottom"
+        android:lines="2"
+        android:maxLines="2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonUno"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonCuatro"
+        android:layout_alignRight="@+id/buttonCuatro"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="94dp"
+        android:text="1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonDos"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonUno"
+        android:layout_toLeftOf="@+id/buttonTres"
+        android:layout_toStartOf="@+id/buttonTres"
+        android:text="2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonTres"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/buttonDos"
+        android:layout_centerHorizontal="true"
+        android:text="3"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCuatro"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUno"
+        android:layout_toLeftOf="@+id/buttonDos"
+        android:text="4"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCinco"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonCuatro"
+        android:layout_alignLeft="@+id/buttonDos"
+        android:layout_alignStart="@+id/buttonDos"
+        android:text="5"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonSeis"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonTres"
+        android:layout_alignStart="@+id/buttonTres"
+        android:layout_below="@+id/buttonTres"
+        android:text="6"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonSeven"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCuatro"
+        android:layout_toLeftOf="@+id/buttonDos"
+        android:text="7"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonEight"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonCinco"
+        android:layout_alignStart="@+id/buttonCinco"
+        android:layout_below="@+id/buttonCinco"
+        android:text="8"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonNine"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSeis"
+        android:layout_alignStart="@+id/buttonSeis"
+        android:layout_alignLeft="@+id/buttonSeis"
+        android:text="9"
+        android:textSize="20sp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/ButtonFactorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSeven"
+        android:layout_toLeftOf="@+id/buttonDos"
+        android:textSize="20sp"
+        android:text="!"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/buttonErase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonEight"
+        android:layout_alignStart="@+id/buttonEight"
+        android:layout_below="@+id/buttonEight"
+        android:textSize="20sp"
+        android:text="C"/>
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/ButtonCero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonNine"
+        android:layout_alignStart="@+id/buttonNine"
+        android:layout_below="@+id/buttonNine"
+        android:textSize="20sp"
+        android:text="0"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejemplo2Pestanas</string>
+    <string name="Inputtab1">Escribir aqui...</string>
+    <string name="PestanaTab1">Pestana 1</string>
+    <string name="PestanaTab2">Pestana 2</string>
+    <string name="inputTab2">Escribir aqui ...</string>
+    <string name="opcBtn1">Opcion 1</string>
+    <string name="PestanaTab3">Pestana 3</string>
+    <string name="OpcBtn1">Opcion 1</string>
+    <string name="OpcBtn2">Opccion 2</string>
+</resources>

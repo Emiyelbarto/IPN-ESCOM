@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/xtvT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#147"
+        android:textColor="#fff"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/xbnI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar" />
+
+
+    <Button
+        android:id="@+id/xbnP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pausar" />
+
+    <Button
+        android:id="@+id/xbnC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar" />
+
+    <Button
+        android:id="@+id/xbnT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminar" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OnClickListener</string>
+    <string name="dat0">Numero</string>
+    <string name="aceptar">Aceptar</string>
+</resources>

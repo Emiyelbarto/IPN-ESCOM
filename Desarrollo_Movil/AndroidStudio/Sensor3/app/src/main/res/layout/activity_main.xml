@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*** Sensor Magnético ***\n"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B en X:" />
+
+    <TextView
+        android:id="@+id/xtvX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo X"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nB en Y:"/>
+
+    <TextView
+        android:id="@+id/xtvY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo Y"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nB en Z:" />
+
+    <TextView
+        android:id="@+id/xtvZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo Z"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nB módulo:" />
+
+    <TextView
+        android:id="@+id/xtvB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo total" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nCampo máximo:" />
+
+    <TextView
+        android:id="@+id/xtvM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo terrestre" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\nCampo de la Tierra mínimo y máximo:" />
+
+    <TextView
+        android:id="@+id/xtvT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo tierra"/>
+</LinearLayout>

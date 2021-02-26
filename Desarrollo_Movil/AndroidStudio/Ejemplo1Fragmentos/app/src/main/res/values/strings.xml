@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejemplo1Fragmentos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Fragmentos2</string>
+    <string name="horizontal">Este es el fragmento en modo horizontal</string>
+    <string name="vertical">Este es el fragmento en modo vertical</string>
+</resources>

@@ -1,0 +1,28 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4550 -RA -LHF -Y -DL -O11111115 -fo20 -N"C:\Users\MITHUN\Desktop\Multimeter\Multimeter.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\MITHUN\Desktop\Multimeter\" "Multimeter _ UITS.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_D.mcl" "__Lib_EEPROM_256.mcl" "__Lib_FLASH_w32_e64.mcl" "__Lib_I2C_b10.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_b10c7.mcl" "__Lib_UART_c67.mcl" "__Lib_USB_genHID.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_TFT.mcl" "__Lib_TFT_Defs.mcl" "__Lib_TFT_16bit.mcl" "__Lib_TFT_16bit_Defs.mcl" "__Lib_TouchPanel_TFT.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 2027 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	P18F4550.c
+diagnostics: 1610	123	Compiled Successfully	P18F4550.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__Lib_MemManager.c
+warning: 34	1508	Implicit conversion of int to ptr	__Lib_MemManager.c
+diagnostics: 231	123	Compiled Successfully	__Lib_MemManager.c
+diagnostics: 0	122	Compilation Started	__Lib_GlcdFonts.c
+diagnostics: 1207	123	Compiled Successfully	__Lib_GlcdFonts.c
+diagnostics: 0	122	Compilation Started	__lib_mmcfat16.h
+diagnostics: 71	123	Compiled Successfully	__Lib_MmcFat16Constants.c
+diagnostics: 0	122	Compilation Started	__Lib_TFT_Defs.c
+diagnostics: 2121	123	Compiled Successfully	__Lib_TFT_Defs.c
+diagnostics: 0	122	Compilation Started	__Lib_TFT_16bit_Defs.c
+diagnostics: 2006	123	Compiled Successfully	__Lib_TFT_16bit_Defs.c
+diagnostics: 0	122	Compilation Started	Multimeter _ UITS.c
+diagnostics: 344	123	Compiled Successfully	Multimeter _ UITS.c
+hint: 98	1164	Variable 'd' has been eliminated by optimizer	Multimeter _ UITS.c
+hint: 333	1164	Variable 'pdc' has been eliminated by optimizer	Multimeter _ UITS.c
+diagnostics: 0	127	All files Compiled in 141 ms	 
+hint: 0	1144	Used RAM (bytes): 477 (24%)  Free RAM (bytes): 1550 (76%)	Used RAM (bytes): 477 (24%)  Free RAM (bytes): 1550 (76%)
+hint: 0	1144	Used ROM (bytes): 11671 (36%)  Free ROM (bytes): 21097 (64%)	Used ROM (bytes): 11671 (36%)  Free ROM (bytes): 21097 (64%)
+diagnostics: 0	125	Project Linked Successfully	Multimeter.mcppi
+diagnostics: 0	128	Linked in 780 ms	 
+diagnostics: 0	129	Project 'Multimeter.mcppi' completed: 2574 ms	 
+diagnostics: 0	103	Finished successfully: 26 Jan 2016, 16:07:29	Multimeter.mcppi

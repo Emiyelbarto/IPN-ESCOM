@@ -1,0 +1,7 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">CronometroPDF</string>
+    <string name="bn1">Inicio</string>
+    <string name="bn2">Alto</string>
+    <string name="bn3">Reset</string>
+</resources>

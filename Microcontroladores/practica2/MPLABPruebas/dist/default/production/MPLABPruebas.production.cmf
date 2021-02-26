@@ -1,0 +1,602 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\emime\AppData\Local\Temp\s9s4.o
+end_init CODE 0 0 0 3 2
+config CONFIG 4 2007 2007 2 2
+$dist/default/production\MPLABPruebas.production.o
+cinit CODE 0 7F8 7F8 8 2
+text1 CODE 0 4F4 4F4 2E 2
+text2 CODE 0 4C6 4C6 2E 2
+text3 CODE 0 498 498 2E 2
+text4 CODE 0 46A 46A 2E 2
+text5 CODE 0 43C 43C 2E 2
+text6 CODE 0 417 417 25 2
+text7 CODE 0 522 522 3B 2
+text8 CODE 0 59C 59C 58 2
+text9 CODE 0 376 376 13 2
+text10 CODE 0 36F 36F 7 2
+text11 CODE 0 654 654 B4 2
+text12 CODE 0 3F5 3F5 22 2
+text13 CODE 0 55D 55D 3F 2
+text14 CODE 0 39F 39F 19 2
+text15 CODE 0 5F4 5F4 60 2
+text16 CODE 0 3B8 3B8 1B 2
+text17 CODE 0 3D3 3D3 22 2
+text18 CODE 0 389 389 16 2
+maintext CODE 0 708 708 F0 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 20 20 D 1
+bssBANK0 BANK0 1 2D 2D 2 1
+strings STRING 0 3 3 77 2
+config CONFIG 4 2007 2007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 2F-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 2F-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 7A-36E 2
+CONST 800-1FFF 2
+ENTRY 7A-36E 2
+ENTRY 800-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 7A-36E 2
+CODE 800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 7A-36E 2
+STRCODE 800-1FFF 2
+STRING 7A-36E 2
+STRING 800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\MPLABPruebas.production.o
+7F8 cinit CODE >987:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7F8 cinit CODE >990:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7F8 cinit CODE >1001:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7F9 cinit CODE >1002:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7FA cinit CODE >1003:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7FB cinit CODE >1004:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7FC cinit CODE >1010:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7FC cinit CODE >1012:C:\Users\emime\AppData\Local\Temp\s9s4.s
+7FD cinit CODE >1013:C:\Users\emime\AppData\Local\Temp\s9s4.s
+389 text18 CODE >91:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+389 text18 CODE >92:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+38D text18 CODE >93:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+391 text18 CODE >94:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+394 text18 CODE >95:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+396 text18 CODE >96:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+399 text18 CODE >97:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+39B text18 CODE >98:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+39E text18 CODE >99:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3D3 text17 CODE >36:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3D4 text17 CODE >37:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3D8 text17 CODE >38:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3DC text17 CODE >39:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3DC text17 CODE >40:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3DF text17 CODE >42:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3E3 text17 CODE >43:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3E5 text17 CODE >44:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3E5 text17 CODE >45:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3E6 text17 CODE >47:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3EA text17 CODE >48:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3EC text17 CODE >49:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3EC text17 CODE >50:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3ED text17 CODE >52:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3F1 text17 CODE >53:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3F3 text17 CODE >54:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3F3 text17 CODE >55:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3F4 text17 CODE >56:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3B8 text16 CODE >58:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3B9 text16 CODE >59:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3BC text16 CODE >60:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3BD text16 CODE >61:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3C3 text16 CODE >62:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3C6 text16 CODE >63:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3CF text16 CODE >64:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+3D2 text16 CODE >65:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5F4 text15 CODE >93:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5F4 text15 CODE >94:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5F7 text15 CODE >95:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5FD text15 CODE >96:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+606 text15 CODE >97:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+60C text15 CODE >98:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+615 text15 CODE >99:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+61B text15 CODE >100:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+623 text15 CODE >101:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+629 text15 CODE >103:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+62F text15 CODE >104:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+635 text15 CODE >105:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+63B text15 CODE >106:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+641 text15 CODE >107:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+647 text15 CODE >108:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+64D text15 CODE >109:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+653 text15 CODE >110:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+39F text14 CODE >81:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+39F text14 CODE >82:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3A3 text14 CODE >83:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3A6 text14 CODE >84:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3AA text14 CODE >85:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3AD text14 CODE >86:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3B0 text14 CODE >87:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3B3 text14 CODE >88:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3B7 text14 CODE >89:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+55D text13 CODE >124:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+55D text13 CODE >125:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+565 text13 CODE >127:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+568 text13 CODE >130:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+587 text13 CODE >132:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+59B text13 CODE >140:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3F5 text12 CODE >142:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3F5 text12 CODE >143:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3F8 text12 CODE >144:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3F9 text12 CODE >145:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3FA text12 CODE >147:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+3FB text12 CODE >148:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+404 text12 CODE >149:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+407 text12 CODE >152:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+40C text12 CODE >153:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+40C text12 CODE >155:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+40D text12 CODE >157:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+415 text12 CODE >159:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+416 text12 CODE >161:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+654 text11 CODE >101:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+654 text11 CODE >102:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+654 text11 CODE >103:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+65D text11 CODE >104:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+66C text11 CODE >105:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+66F text11 CODE >106:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+67E text11 CODE >107:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+682 text11 CODE >108:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+691 text11 CODE >109:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+695 text11 CODE >110:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6A4 text11 CODE >111:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6A8 text11 CODE >112:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6B7 text11 CODE >113:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6BB text11 CODE >114:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6CA text11 CODE >115:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6CE text11 CODE >116:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6DD text11 CODE >117:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6E1 text11 CODE >118:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6F0 text11 CODE >119:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+6F4 text11 CODE >120:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+703 text11 CODE >121:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+707 text11 CODE >122:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+36F text10 CODE >75:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+36F text10 CODE >77:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+375 text10 CODE >79:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+376 text9 CODE >67:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+376 text9 CODE >68:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+379 text9 CODE >69:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+37F text9 CODE >70:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+385 text9 CODE >71:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+388 text9 CODE >72:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+59C text8 CODE >74:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+59D text8 CODE >75:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5A0 text8 CODE >77:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5A5 text8 CODE >78:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5AA text8 CODE >79:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5B6 text8 CODE >80:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5BB text8 CODE >81:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5C1 text8 CODE >82:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5C7 text8 CODE >83:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5CE text8 CODE >84:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5D3 text8 CODE >85:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5DF text8 CODE >86:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5E4 text8 CODE >87:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5EA text8 CODE >88:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5F0 text8 CODE >90:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+5F3 text8 CODE >91:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+522 text7 CODE >112:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+523 text7 CODE >113:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+526 text7 CODE >115:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+52B text7 CODE >116:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+530 text7 CODE >117:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+531 text7 CODE >118:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+53F text7 CODE >119:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+542 text7 CODE >120:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+547 text7 CODE >121:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+54A text7 CODE >122:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+550 text7 CODE >123:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+553 text7 CODE >124:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+558 text7 CODE >125:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+55B text7 CODE >126:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+55C text7 CODE >127:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+417 text6 CODE >129:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+418 text6 CODE >131:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+41B text6 CODE >132:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+43B text6 CODE >133:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\lcd.c
+43C text5 CODE >66:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+43C text5 CODE >67:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+441 text5 CODE >68:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+449 text5 CODE >69:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+44F text5 CODE >70:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+457 text5 CODE >71:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+45D text5 CODE >72:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+469 text5 CODE >73:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+46A text4 CODE >29:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+46A text4 CODE >30:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+46F text4 CODE >31:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+477 text4 CODE >32:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+47D text4 CODE >33:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+485 text4 CODE >34:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+48B text4 CODE >35:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+497 text4 CODE >36:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+498 text3 CODE >47:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+498 text3 CODE >48:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+49D text3 CODE >49:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4A5 text3 CODE >50:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4AB text3 CODE >51:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4B3 text3 CODE >52:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4B9 text3 CODE >53:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4C5 text3 CODE >54:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4C6 text2 CODE >38:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4C6 text2 CODE >39:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4CB text2 CODE >40:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4D3 text2 CODE >41:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4D9 text2 CODE >42:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4E1 text2 CODE >43:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4E7 text2 CODE >44:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4F3 text2 CODE >45:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4F4 text1 CODE >56:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4F4 text1 CODE >57:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+4F9 text1 CODE >58:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+501 text1 CODE >59:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+507 text1 CODE >60:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+50F text1 CODE >61:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+515 text1 CODE >62:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+521 text1 CODE >64:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\config.c
+708 maintext CODE >26:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+708 maintext CODE >27:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+708 maintext CODE >28:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+70C maintext CODE >29:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+711 maintext CODE >30:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+716 maintext CODE >31:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+71B maintext CODE >32:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+720 maintext CODE >33:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+728 maintext CODE >34:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+72E maintext CODE >35:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+737 maintext CODE >36:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+73C maintext CODE >38:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+742 maintext CODE >39:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+762 maintext CODE >40:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+768 maintext CODE >42:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+76D maintext CODE >43:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+772 maintext CODE >44:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+77B maintext CODE >47:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+781 maintext CODE >48:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7A1 maintext CODE >49:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7A7 maintext CODE >51:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7AC maintext CODE >52:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7B5 maintext CODE >55:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7BB maintext CODE >56:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7DB maintext CODE >57:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7E1 maintext CODE >59:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7E6 maintext CODE >60:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+7EF maintext CODE >63:B:\Documents\Decimo\Microcontroladores\practica2\MPLABPruebas\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Hspace_0 800 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+_Lcd_Init BE8 0 CODE 0 text15 dist/default/production\MPLABPruebas.production.o
+_Lcd_Port 7A6 0 CODE 0 text17 dist/default/production\MPLABPruebas.production.o
+__size_of_medirVoltajeDC 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_GO F9 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+canal0@z 7A 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+__end_of_Lcd_Init CA8 0 CODE 0 text15 dist/default/production\MPLABPruebas.production.o
+__end_of_Lcd_Port 7EA 0 CODE 0 text17 dist/default/production\MPLABPruebas.production.o
+main@a 27 0 BANK0 1 cstackBANK0 dist/default/production\MPLABPruebas.production.o
+main@b 29 0 BANK0 1 cstackBANK0 dist/default/production\MPLABPruebas.production.o
+main@c 2B 0 BANK0 1 cstackBANK0 dist/default/production\MPLABPruebas.production.o
+__Hstrings 0 0 ABS 0 strings -
+_ADIF 66 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_ADON F8 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_CHS0 FA 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_CHS1 FB 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_CHS2 FC 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_TMR0 1 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+___sp 0 0 STACK 2 stack C:\Users\emime\AppData\Local\Temp\s9s4.o
+_main E10 0 CODE 0 maintext dist/default/production\MPLABPruebas.production.o
+btemp 7E 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_Lcd_Write_Char A44 0 CODE 0 text7 dist/default/production\MPLABPruebas.production.o
+start 0 0 CODE 0 init C:\Users\emime\AppData\Local\Temp\s9s4.o
+__size_of_main 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+Lcd_Port@a 70 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+Lcd_Write_Char@temp 72 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+delay_ms@time 70 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\emime\AppData\Local\Temp\s9s4.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\emime\AppData\Local\Temp\s9s4.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\emime\AppData\Local\Temp\s9s4.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\emime\AppData\Local\Temp\s9s4.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\emime\AppData\Local\Temp\s9s4.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\emime\AppData\Local\Temp\s9s4.o
+wtemp0 7E 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__size_of_Lcd_Set_Cursor 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__end_of_Lcd_Write_Char ABA 0 CODE 0 text7 dist/default/production\MPLABPruebas.production.o
+_ADCON0 1F 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_ADCON1 9F 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_ADRESH 1E 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_ADRESL 9E 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_iniciarPullUp 73E 0 CODE 0 text14 dist/default/production\MPLABPruebas.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__size_of_seleccionarTemperatura 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__end_of_canal0 82E 0 CODE 0 text12 dist/default/production\MPLABPruebas.production.o
+_OPTION_REG 81 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+___stackhi 0 0 ABS 0 - C:\Users\emime\AppData\Local\Temp\s9s4.o
+___stacklo 0 0 ABS 0 - C:\Users\emime\AppData\Local\Temp\s9s4.o
+__size_of_seleccionarMultimetroAC 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__size_of_seleccionarMultimetroDC 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+Lcd_Set_Cursor@temp 7A 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+start_initialization FF0 0 CODE 0 cinit dist/default/production\MPLABPruebas.production.o
+_OSCCON 8F 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_ADCInit 712 0 CODE 0 text18 dist/default/production\MPLABPruebas.production.o
+_ADCRead CA8 0 CODE 0 text11 dist/default/production\MPLABPruebas.production.o
+_Lcd_Write_String 82E 0 CODE 0 text6 dist/default/production\MPLABPruebas.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\MPLABPruebas.production.o
+__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\emime\AppData\Local\Temp\s9s4.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 10 0 STRING 0 strings dist/default/production\MPLABPruebas.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+__size_of_iniciarPullUp 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4012 0 CONFIG 4 config -
+__end_of_printMenu 930 0 CODE 0 text4 dist/default/production\MPLABPruebas.production.o
+__size_of_printMenu 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FF0 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_medirVoltajeDC 6DE 0 CODE 0 text10 dist/default/production\MPLABPruebas.production.o
+_RB0 30 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RB1 31 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RB2 32 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD0 40 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD1 41 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD2 42 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD4 44 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD5 45 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD6 46 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_RD7 47 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__S0 800 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_printMenu 8D4 0 CODE 0 text4 dist/default/production\MPLABPruebas.production.o
+__end_of_iniciarPullUp 770 0 CODE 0 text14 dist/default/production\MPLABPruebas.production.o
+_canal0 7EA 0 CODE 0 text12 dist/default/production\MPLABPruebas.production.o
+__end_of_Lcd_Write_String 878 0 CODE 0 text6 dist/default/production\MPLABPruebas.production.o
+__end_of_Lcd_Clear 712 0 CODE 0 text9 dist/default/production\MPLABPruebas.production.o
+__Lintentry 0 0 CODE 0 intentry -
+__size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__stringtab 6 0 STRING 0 strings dist/default/production\MPLABPruebas.production.o
+Lcd_Write_String@a 77 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+Lcd_Write_String@i 75 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\emime\AppData\Local\Temp\s9s4.o
+__size_of_Lcd_Clear 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__end_of_Lcd_Cmd 7A6 0 CODE 0 text16 dist/default/production\MPLABPruebas.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+_mostrarError 878 0 CODE 0 text5 dist/default/production\MPLABPruebas.production.o
+__end_of_medirVoltajeDC 6EC 0 CODE 0 text10 dist/default/production\MPLABPruebas.production.o
+__ptext10 6DE 0 CODE 0 text10 dist/default/production\MPLABPruebas.production.o
+__ptext11 CA8 0 CODE 0 text11 dist/default/production\MPLABPruebas.production.o
+__ptext12 7EA 0 CODE 0 text12 dist/default/production\MPLABPruebas.production.o
+__ptext13 ABA 0 CODE 0 text13 dist/default/production\MPLABPruebas.production.o
+__ptext14 73E 0 CODE 0 text14 dist/default/production\MPLABPruebas.production.o
+__ptext15 BE8 0 CODE 0 text15 dist/default/production\MPLABPruebas.production.o
+__ptext16 770 0 CODE 0 text16 dist/default/production\MPLABPruebas.production.o
+__ptext17 7A6 0 CODE 0 text17 dist/default/production\MPLABPruebas.production.o
+__ptext18 712 0 CODE 0 text18 dist/default/production\MPLABPruebas.production.o
+_Lcd_Clear 6EC 0 CODE 0 text9 dist/default/production\MPLABPruebas.production.o
+__size_of_Lcd_Write_Char 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__size_of_canal0 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_Lcd_Set_Cursor B38 0 CODE 0 text8 dist/default/production\MPLABPruebas.production.o
+__pmaintext E10 0 CODE 0 maintext dist/default/production\MPLABPruebas.production.o
+_seleccionarTemperatura 9E8 0 CODE 0 text1 dist/default/production\MPLABPruebas.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+main@flag 25 0 BANK0 1 cstackBANK0 dist/default/production\MPLABPruebas.production.o
+__size_of_mostrarError 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__end_of__stringtab 12 0 STRING 0 strings dist/default/production\MPLABPruebas.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+delay_ms@i 76 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+__Lend_init 0 0 CODE 0 end_init -
+__size_of_delay_ms 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\MPLABPruebas.production.o
+__end_of_Lcd_Set_Cursor BE8 0 CODE 0 text8 dist/default/production\MPLABPruebas.production.o
+__Hintentry 0 0 CODE 0 intentry -
+Lcd_Set_Cursor@a 77 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+Lcd_Set_Cursor@b 74 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+Lcd_Set_Cursor@y 79 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+Lcd_Set_Cursor@z 78 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+__end_of_mostrarError 8D4 0 CODE 0 text5 dist/default/production\MPLABPruebas.production.o
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext1 9E8 0 CODE 0 text1 dist/default/production\MPLABPruebas.production.o
+__ptext2 98C 0 CODE 0 text2 dist/default/production\MPLABPruebas.production.o
+__ptext3 930 0 CODE 0 text3 dist/default/production\MPLABPruebas.production.o
+__ptext4 8D4 0 CODE 0 text4 dist/default/production\MPLABPruebas.production.o
+__ptext5 878 0 CODE 0 text5 dist/default/production\MPLABPruebas.production.o
+__ptext6 82E 0 CODE 0 text6 dist/default/production\MPLABPruebas.production.o
+__ptext7 A44 0 CODE 0 text7 dist/default/production\MPLABPruebas.production.o
+__ptext8 B38 0 CODE 0 text8 dist/default/production\MPLABPruebas.production.o
+__ptext9 6EC 0 CODE 0 text9 dist/default/production\MPLABPruebas.production.o
+__size_of_ADCInit 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__size_of_ADCRead 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_seleccionarMultimetroAC 930 0 CODE 0 text3 dist/default/production\MPLABPruebas.production.o
+_seleccionarMultimetroDC 98C 0 CODE 0 text2 dist/default/production\MPLABPruebas.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_seleccionarMultimetroAC 98C 0 CODE 0 text3 dist/default/production\MPLABPruebas.production.o
+__end_of_seleccionarMultimetroDC 9E8 0 CODE 0 text2 dist/default/production\MPLABPruebas.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\MPLABPruebas.production.o
+_delay_ms ABA 0 CODE 0 text13 dist/default/production\MPLABPruebas.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+Lcd_Cmd@a 73 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of_delay_ms B38 0 CODE 0 text13 dist/default/production\MPLABPruebas.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__size_of_Lcd_Port 0 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Hend_init 6 0 CODE 0 end_init -
+__end_of_main FF0 0 CODE 0 maintext dist/default/production\MPLABPruebas.production.o
+_ADRES 2D 0 BANK0 1 bssBANK0 dist/default/production\MPLABPruebas.production.o
+_PORTA 5 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_PORTB 6 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_PORTD 8 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_TRISA 85 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\MPLABPruebas.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of_seleccionarTemperatura A44 0 CODE 0 text1 dist/default/production\MPLABPruebas.production.o
+_Lcd_Cmd 770 0 CODE 0 text16 dist/default/production\MPLABPruebas.production.o
+__initialization FF0 0 CODE 0 cinit dist/default/production\MPLABPruebas.production.o
+__pbssBANK0 2D 0 BANK0 1 bssBANK0 dist/default/production\MPLABPruebas.production.o
+__pstrings 6 0 STRING 0 strings dist/default/production\MPLABPruebas.production.o
+__end_of_ADCInit 73E 0 CODE 0 text18 dist/default/production\MPLABPruebas.production.o
+__end_of_ADCRead E10 0 CODE 0 text11 dist/default/production\MPLABPruebas.production.o
+Lcd_Write_Char@a 74 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+Lcd_Write_Char@y 73 0 COMMON 1 cstackCOMMON dist/default/production\MPLABPruebas.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7F8 FF0 8 2
+text1 0 4F4 9E8 2E 2
+text2 0 4C6 98C 2E 2
+text3 0 498 930 2E 2
+text4 0 46A 8D4 2E 2
+text5 0 43C 878 2E 2
+text6 0 417 82E 25 2
+text7 0 522 A44 3B 2
+text8 0 59C B38 58 2
+text9 0 376 6EC 13 2
+text10 0 36F 6DE 7 2
+text11 0 654 CA8 B4 2
+text12 0 3F5 7EA 22 2
+text13 0 55D ABA 3F 2
+text14 0 39F 73E 19 2
+text15 0 5F4 BE8 60 2
+text16 0 3B8 770 1B 2
+text17 0 3D3 7A6 22 2
+text18 0 389 712 16 2
+maintext 0 708 E10 F0 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 F 1
+reset_vec 0 0 0 3 2
+strings 0 3 6 77 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

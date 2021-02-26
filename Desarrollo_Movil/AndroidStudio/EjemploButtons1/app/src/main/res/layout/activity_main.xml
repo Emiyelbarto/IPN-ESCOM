@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:text="Eventos de Button\n\nDigite un botón...\n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Clase Interna (jbn1)"
+        android:id="@+id/xbn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Clase Interna Anónima (jbn2)"
+        android:id="@+id/xbn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Implanta una Interface (jbn3)"
+        android:id="@+id/xbn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Invoca al método desde XML (jbn4)"
+        android:id="@+id/xbn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xbn4DesdeXML" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Ejemplo de Spinner </string>
+    <string name="xsops">Opciones</string>
+    <string name="action_settings">Ajustes</string>
+    <string-array name="xops">
+        <item>Opcion 1</item>
+        <item>Opcion 2</item>
+        <item>Opcion 3</item>
+        <item>Opcion 4</item>
+        <item>Opcion 5</item>
+        <item>Opcion 6</item>
+        <item>Opcion 7</item>
+        <item>Opcion 8</item>
+        <item>Opcion 9</item>
+        <item>Opcion 10</item>
+    </string-array>
+</resources>

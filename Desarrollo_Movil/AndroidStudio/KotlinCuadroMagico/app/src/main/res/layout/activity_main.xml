@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#848484"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/titulo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/input"
+        />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F88195"
+        android:text="@string/calcular"
+        android:textSize="30sp"
+        android:background="#6C5B78"
+        />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/n1"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="n1"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/n2"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="n2"/>
+        <TextView
+            android:id="@+id/n3"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:text="n3"
+            tools:ignore="RtlHardcoded" />
+
+
+    </TableRow>
+
+    <TextView
+        android:text="\n"/>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/n4"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="n4"/>
+        <TextView
+            android:id="@+id/n5"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="n5"/>
+        <TextView
+            android:id="@+id/n6"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:text="n6"/>
+
+    </TableRow>
+
+    <TextView
+        android:text="\n"/>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/n7"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="n7"/>
+        <TextView
+            android:id="@+id/n8"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="n8"/>
+        <TextView
+            android:id="@+id/n9"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:text="n9"/>
+
+
+    </TableRow>
+
+</TableLayout>

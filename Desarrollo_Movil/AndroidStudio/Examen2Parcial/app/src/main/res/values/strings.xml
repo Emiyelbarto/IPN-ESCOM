@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Examen2Parcial</string>
+    <string name="Valor_Z">z = </string>
+    <string name="Valor_Y">y = </string>
+    <string name="Valor_X">x = </string>
+    <string name="Introducir">Introducir datos</string>
+    <string name="Datos_vec1">Datos del vector 1:</string>
+    <string name="Datos_vec2">Datos del vector 2:</string>
+    <string name="Datos_vec3">Datos del vector 3:</string>
+    <string name="Aceptar">Aceptar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="TituloExamen">Examen 2 Parcial</string>
+</resources>

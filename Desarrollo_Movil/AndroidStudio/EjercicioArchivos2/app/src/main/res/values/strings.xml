@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjercicioArchivos2</string>
+    <string name="almacen">***** ALMACEN *****</string>
+    <string name="action_settings">Settings</string>
+</resources>

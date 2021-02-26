@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinPDF3</string>
+    <string name="introducir">Introducir un valor para ver si es nulo o no</string>
+</resources>

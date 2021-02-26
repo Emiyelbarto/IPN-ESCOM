@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*** Acelerómetro ***" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En X: " />
+
+    <TextView
+        android:id="@+id/xtvX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion en X" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En Y: " />
+
+    <TextView
+        android:id="@+id/xtvY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion en Y" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En Z: " />
+
+    <TextView
+        android:id="@+id/xtvZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion en Z" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Módulo (|A|): " />
+
+    <TextView
+        android:id="@+id/xtvA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleracion: " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceleración máxima: " />
+
+    <TextView
+        android:id="@+id/xtvM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravedad estándar: " />
+
+    <TextView
+        android:id="@+id/xtvG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

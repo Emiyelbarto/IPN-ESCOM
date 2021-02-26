@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KotlinCuadroMagico</string>
+    <string name="titulo">Cuadro Mágico</string>
+    <string name="input">Ingresar el número de tamaño impar</string>
+    <string name="calcular">Calcular Cuadrado</string>
+</resources>

@@ -1,0 +1,8 @@
+MIDlet-1: Triangulo, , Triangulo
+MIDlet-Jar-Size: 3142
+MIDlet-Jar-URL: Ejercicio2Examen.jar
+MIDlet-Name: Ejercicio2Examen
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1

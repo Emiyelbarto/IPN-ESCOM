@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejemplo1Pestanas</string>
+    <string name="extv1">Escribir aqui…</string>
+    <string name="tab1txt">Contenido de Tab 1</string>
+    <string name="btn1">Opcion A</string>
+    <string name="btn2">Opcion B</string>
+    <string name="btn3">Digitar</string>
+    <string name="tab2txt">Contenido de Tab 2</string>
+</resources>

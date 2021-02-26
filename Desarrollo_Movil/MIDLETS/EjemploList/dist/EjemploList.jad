@@ -1,0 +1,8 @@
+MIDlet-1: Maravilloso, , Maravilloso
+MIDlet-Jar-Size: 2716
+MIDlet-Jar-URL: EjemploList.jar
+MIDlet-Name: EjemploList
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1

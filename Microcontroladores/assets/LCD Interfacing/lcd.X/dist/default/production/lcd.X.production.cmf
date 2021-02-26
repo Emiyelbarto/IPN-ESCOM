@@ -1,0 +1,433 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+end_init CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 1 2
+$dist/default/production\lcd.X.production.obj
+cinit CODE 0 7FC 7FC 4 2
+text9 CODE 0 5D3 5D3 1A 2
+text8 CODE 0 5ED 5ED 1A 2
+text7 CODE 0 5B2 5B2 B 2
+text6 CODE 0 6AD 6AD 5B 2
+text5 CODE 0 662 662 4B 2
+text4 CODE 0 5BD 5BD B 2
+text3 CODE 0 5C8 5C8 B 2
+text2 CODE 0 629 629 39 2
+text1 CODE 0 607 607 22 2
+maintext CODE 0 708 708 F4 2
+cstackBANK0 BANK0 1 20 20 2 1
+cstackCOMMON COMMON 1 70 70 E 1
+strings STRING 0 3 3 4D 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK0 0022-006F 1
+BANK1 00A0-00EF 1
+BANK2 0110-016F 1
+BANK3 0190-01EF 1
+CODE 0050-05B1 2
+CODE 0800-1FFF 2
+CONST 0050-05B1 2
+CONST 0800-1FFF 2
+EEDATA 2100-21FF 2
+ENTRY 0050-05B1 2
+ENTRY 0800-1FFF 2
+IDLOC 2000-2003 2
+RAM 0022-006F 1
+RAM 00A0-00EF 1
+RAM 0110-016F 1
+RAM 0190-01EF 1
+SFR0 0000-001F 1
+SFR1 0080-009F 1
+SFR2 0100-010F 1
+SFR3 0180-018F 1
+STACK 0110-016F 1
+STRCODE 0050-05B1 2
+STRCODE 0800-1FFF 2
+STRING 0050-05B1 2
+STRING 0800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\lcd.X.production.obj
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":35 5B2 text7 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":37 5B2 text7 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":38 5B8 text7 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":39 5BC text7 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":110 5BD text4 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":112 5BD text4 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":113 5C3 text4 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":114 5C7 text4 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":104 5C8 text3 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":106 5C8 text3 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":107 5CE text3 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":108 5D2 text3 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":4 5D3 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":6 5D4 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":7 5D6 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":8 5DA text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":9 5DA text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":11 5DD text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":12 5DF text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":13 5E1 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":14 5E1 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":16 5E2 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":17 5E4 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":18 5E6 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":19 5E6 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":21 5E7 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":22 5E9 text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":23 5EB text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":24 5EB text9 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":26 5ED text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":28 5EE text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":29 5F1 text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":30 5F7 text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":31 5FA text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":32 603 text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":33 606 text8 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":97 607 text1 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":100 608 text1 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":101 615 text1 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":100 622 text1 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":81 629 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":84 62A text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":85 62F text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":86 634 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":87 637 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":88 645 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":89 648 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":90 64D text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":91 650 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":92 656 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":93 659 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":94 65E text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":95 661 text2 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":41 662 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":44 663 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":46 667 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":47 66C text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":48 678 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":49 67D text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":50 683 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":51 687 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":52 688 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":54 68C text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":55 691 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":56 69D text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":57 6A2 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":58 6A8 text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":59 6AC text5 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":62 6AD text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":64 6AD text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":65 6B3 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":66 6BC text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":67 6C2 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":68 6CB text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":69 6D1 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":70 6D9 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":72 6DF text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":73 6E5 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":74 6EB text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":75 6F1 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":76 6F7 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":77 6FD text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":78 703 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\lcd.h":79 707 text6 CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":24 708 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":27 708 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":28 70B maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":31 710 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":32 715 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":33 71D maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":34 723 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":35 72B maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":36 731 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":37 73E maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":38 743 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":39 74B maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":40 751 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":41 759 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":42 75F maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":43 76C maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":44 771 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":45 779 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":47 77F maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":49 78A maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":50 797 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":47 79C maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":53 7AB maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":55 7B4 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":56 7C1 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":53 7C6 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":59 7D5 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":60 7DA maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":61 7E2 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":62 7E8 maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":63 7EE maintext CODE
+"F:\Electronics\Embeded\PIC Microcontroller\MPLAB XC8\LCD Interfacing\lcd.X\main.c":29 7FB maintext CODE
+"C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.":323 7FC cinit CODE
+"C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.":326 7FC cinit CODE
+"C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.":332 7FC cinit CODE
+"C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.":333 7FC cinit CODE
+"C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.":334 7FD cinit CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD2 42 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD3 43 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD4 44 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD5 45 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD6 46 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_RD7 47 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__S0 2008 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__Hintentry 0 0 CODE 0 intentry -
+__Lintentry 0 0 CODE 0 intentry -
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Write_String C52 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+_Lcd_Write_Char C52 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Shift_Left B90 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+_main E10 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+btemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+start 0 0 CODE 0 init C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+_TRISD 88 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp0 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp0 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp1 82 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp1 81 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp1 80 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp2 86 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp2 84 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp2 82 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ltemp3 80 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp3 87 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp3 84 0 ABS 0 - dist/default/production\lcd.X.production.obj
+ttemp4 7F 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp4 86 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp5 88 0 ABS 0 - dist/default/production\lcd.X.production.obj
+wtemp6 7F 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hconfig 4010 0 CONFIG 0 config -
+__Lconfig 400E 0 CONFIG 0 config -
+__end_of_Lcd_Init E10 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+main@a 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+__end_of__stringtab 12 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+Lcd_Set_Cursor@b 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__end_of__stringdata A0 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_Lcd_Init D5A 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+__end_of_Lcd_Write_Char CC4 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+___int_sp 0 0 STACK 2 stack C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+_Lcd_Port BA6 0 CODE 0 text9 dist/default/production\lcd.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+_Lcd_Shift_Right B90 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Shift_Right 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_Lcd_Write_String C0E 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+_Lcd_Clear B64 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+Lcd_Write_Char@y 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\lcd.X.production.obj
+stacklo 0 0 ABS 0 - C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+__Hinit 0 0 CODE 0 init -
+__Linit 0 0 CODE 0 init -
+__end_of_main FF8 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Cmd C0E 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Clear 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__stringtab 6 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Shift_Right BA6 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__pstrings 6 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+_Lcd_Set_Cursor CC4 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 2 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+__Lpowerup 0 0 CODE 0 powerup -
+__ptext1 C0E 0 CODE 0 text1 dist/default/production\lcd.X.production.obj
+__ptext2 C52 0 CODE 0 text2 dist/default/production\lcd.X.production.obj
+__ptext3 B90 0 CODE 0 text3 dist/default/production\lcd.X.production.obj
+__ptext4 B7A 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__ptext5 CC4 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__ptext6 D5A 0 CODE 0 text6 dist/default/production\lcd.X.production.obj
+__ptext7 B64 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@a 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__ptext8 BDA 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+__ptext9 BA6 0 CODE 0 text9 dist/default/production\lcd.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+Lcd_Write_String@a 77 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+Lcd_Write_String@i 75 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+_Lcd_Cmd BDA 0 CODE 0 text8 dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@temp 7A 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__Lstack 0 0 STACK 2 stack -
+__Hspace_0 2008 0 ABS 0 - -
+__Lspace_0 0 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Hcinit 1000 0 CODE 0 cinit -
+__Lcinit FF8 0 CODE 0 cinit -
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Write_String 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hspace_3 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__size_of_main 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Set_Cursor D5A 0 CODE 0 text5 dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Set_Cursor 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Shift_Left 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__end_of_Lcd_Clear B7A 0 CODE 0 text7 dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@z 78 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__Hend_init 6 0 CODE 0 end_init -
+__Lend_init 0 0 CODE 0 end_init -
+Lcd_Write_Char@a 74 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+_Lcd_Shift_Left B7A 0 CODE 0 text4 dist/default/production\lcd.X.production.obj
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__stringdata 12 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+intlevel2 0 0 CODE 0 functab C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+intlevel3 0 0 CODE 0 functab C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+Lcd_Write_Char@temp 72 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+__end_of_Lcd_Port BDA 0 CODE 0 text9 dist/default/production\lcd.X.production.obj
+intlevel5 0 0 CODE 0 functab C:\Users\LIGOGE~1\AppData\Local\Temp\s4sc.obj
+__size_of_Lcd_Port 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__size_of_Lcd_Write_Char 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+start_initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__pmaintext E10 0 CODE 0 maintext dist/default/production\lcd.X.production.obj
+__initialization FF8 0 CODE 0 cinit dist/default/production\lcd.X.production.obj
+__stringbase 10 0 STRING 0 strings dist/default/production\lcd.X.production.obj
+Lcd_Cmd@a 73 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+Lcd_Set_Cursor@y 79 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+Lcd_Port@a 70 0 COMMON 1 cstackCOMMON dist/default/production\lcd.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\lcd.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2
+cinit 0 7FC FF8 4 2
+config 0 2007 400E 1 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 2 1
+maintext 0 708 E10 F4 2
+text6 0 6AD D5A 5B 2
+strings 0 3 6 4D 2
+text5 0 662 CC4 4B 2
+text2 0 629 C52 39 2
+text1 0 607 C0E 22 2
+text8 0 5ED BDA 1A 2
+text9 0 5D3 BA6 1A 2
+text3 0 5C8 B90 B 2
+text4 0 5BD B7A B 2
+text7 0 5B2 B64 B 2

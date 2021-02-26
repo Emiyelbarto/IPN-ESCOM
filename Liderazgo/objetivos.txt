@@ -1,0 +1,33 @@
+Papeles:
+
+- Desarrollador
+  -> Me gusta crear 
+  -> Me motiva cada dia a levantarme de la cama
+  -> Mi mayor meta a futuro es tener mi empresa de videojuegos
+- Hermano mayor
+  -> Quiero guiar a mi hermano a tomar mejores decisiones
+  -> Darle el apoyo necesario a mi familia en lo que pueda hacer
+  -> Brindar conocimientos que ellos no tienen
+- Novio
+  -> Busco formar una familia con mi pareja
+  -> Crecer a su lado es algo a lo que aspiro
+- Hacker
+  -> Me apasiona la ciber seguridad y pienso que es un campo que deberia crecer en mexico
+  -> Hay muchas oportunidades que quisiera tomar en algun momento
+
+Objetivos:
+
+Corto plazo (dias a semanas):
+ -> Terminar mi primer juego en Unity
+ -> Aprender por completo la interfaz de Unity
+ -> Empezar mi primer semana de dieta
+Mediano plazo (meses):
+ -> Tener el cuerpo que siempre he deseado
+ -> Obtener un aumento de puesto en mi trabajo
+ -> Aprender a desarrollar independientemente los juegos que plantee
+ -> Haber desarrollado al menos 3 juegos
+ -> Aprender mas de la escena de ciber seguridad en México
+Largo plazo (años): 
+ -> Tener 10 o mas juegos propios
+ -> Mudarme a mi propio apartamento
+ -> Tener mi propia empresa de desarrollo de videojuegos o ciber seguridad

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DbmsSQLLite1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="snom">Nombre:</string>
+    <string name="sid">ID:</string>
+    <string name="ins">Alta</string>
+    <string name="cons">Lista</string>
+    <string name="delete">Borrar</string>
+    <string name="update">Update</string>
+</resources>

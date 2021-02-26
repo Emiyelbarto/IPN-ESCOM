@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MapasEjercicio2</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="posicion_actual">Posicion Actual:</string>
+</resources>
