@@ -1,0 +1,133 @@
+Flow report for CISC
+Thu Feb 27 16:25:57 2020
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Thu Feb 27 16:25:57 2020    ;
+; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Revision Name                      ; CISC                                     ;
+; Top-level Entity Name              ; alu_chida                                ;
+; Family                             ; Cyclone IV E                             ;
+; Device                             ; EP4CE115F29C8                            ;
+; Timing Models                      ; Final                                    ;
+; Total logic elements               ; 0 / 114,480 ( 0 % )                      ;
+;     Total combinational functions  ; 0 / 114,480 ( 0 % )                      ;
+;     Dedicated logic registers      ; 0 / 114,480 ( 0 % )                      ;
+; Total registers                    ; 0                                        ;
+; Total pins                         ; 17 / 529 ( 3 % )                         ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                    ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/27/2020 16:25:19 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; CISC                ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                 ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------------+
+; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id           ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID               ; 260535857447225.158284231812072       ; --            ; --          ; --                   ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL     ; Design Compiler                       ; <None>        ; --          ; --                   ;
+; EDA_INPUT_DATA_FORMAT               ; Vhdl                                  ; --            ; --          ; eda_design_synthesis ;
+; EDA_INPUT_VCC_NAME                  ; Vdd                                   ; --            ; --          ; eda_design_synthesis ;
+; EDA_LMF_FILE                        ; altsyn.lmf                            ; --            ; --          ; eda_design_synthesis ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation       ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (VHDL)                       ; <None>        ; --          ; --                   ;
+; EDA_TIME_SCALE                      ; 1 ps                                  ; --            ; --          ; eda_simulation       ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --                   ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; alu_chida   ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; alu_chida   ; Top                  ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; alu_chida   ; Top                  ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --                   ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --                   ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --                   ;
+; TOP_LEVEL_ENTITY                    ; alu_chida                             ; CISC          ; --          ; --                   ;
++-------------------------------------+---------------------------------------+---------------+-------------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4632 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:20     ; 1.0                     ; 4878 MB             ; 00:00:19                           ;
+; Assembler                 ; 00:00:08     ; 1.0                     ; 4570 MB             ; 00:00:08                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4651 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4529 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:35     ; --                      ; --                  ; 00:00:33                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off CISC -c CISC
+quartus_fit --read_settings_files=off --write_settings_files=off CISC -c CISC
+quartus_asm --read_settings_files=off --write_settings_files=off CISC -c CISC
+quartus_sta CISC -c CISC
+quartus_eda --read_settings_files=off --write_settings_files=off CISC -c CISC
+
+
+

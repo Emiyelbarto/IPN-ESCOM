@@ -1,0 +1,130 @@
+Flow report for led1
+Wed Feb 26 21:02:43 2020
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Wed Feb 26 21:02:43 2020    ;
+; Quartus II 64-Bit Version          ; 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Revision Name                      ; led1                                     ;
+; Top-level Entity Name              ; led1                                     ;
+; Family                             ; Cyclone IV E                             ;
+; Device                             ; EP4CE115F29C8                            ;
+; Timing Models                      ; Final                                    ;
+; Total logic elements               ; 0 / 114,480 ( 0 % )                      ;
+;     Total combinational functions  ; 0 / 114,480 ( 0 % )                      ;
+;     Dedicated logic registers      ; 0 / 114,480 ( 0 % )                      ;
+; Total registers                    ; 0                                        ;
+; Total pins                         ; 2 / 529 ( < 1 % )                        ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                    ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                          ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/26/2020 21:02:10 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; led1                ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------------+
+; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id           ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------------+
+; COMPILER_SIGNATURE_ID               ; 260535857447225.158277253011668 ; --            ; --          ; --                   ;
+; EDA_DESIGN_ENTRY_SYNTHESIS_TOOL     ; Design Compiler                 ; <None>        ; --          ; --                   ;
+; EDA_INPUT_DATA_FORMAT               ; Vhdl                            ; --            ; --          ; eda_design_synthesis ;
+; EDA_INPUT_VCC_NAME                  ; Vdd                             ; --            ; --          ; eda_design_synthesis ;
+; EDA_LMF_FILE                        ; altsyn.lmf                      ; --            ; --          ; eda_design_synthesis ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation       ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --                   ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --                   ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --                   ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --          ; --                   ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top                  ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top                  ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top                  ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --                   ;
++-------------------------------------+---------------------------------+---------------+-------------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4632 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:18     ; 1.0                     ; 4878 MB             ; 00:00:17                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 4565 MB             ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4654 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4529 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:30     ; --                      ; --                  ; 00:00:29                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-SPS4Q4H  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off led1 -c led1
+quartus_fit --read_settings_files=off --write_settings_files=off led1 -c led1
+quartus_asm --read_settings_files=off --write_settings_files=off led1 -c led1
+quartus_sta led1 -c led1
+quartus_eda --read_settings_files=off --write_settings_files=off led1 -c led1
+
+
+

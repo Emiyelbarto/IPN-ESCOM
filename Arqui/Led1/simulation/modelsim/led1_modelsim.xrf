@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Emiliano/Documents/IPN/Noveno/Arqui/Led1/led1.vhd
+source_file = 1, C:/Users/Emiliano/Documents/IPN/Noveno/Arqui/Led1/db/led1.cbx.xml
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/12.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = led1
+instance = comp, \Y0~output\, Y0~output, led1, 1
+instance = comp, \X0~input\, X0~input, led1, 1

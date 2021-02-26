@@ -1,0 +1,20 @@
+|alu_chida
+instruccion[0] => ~NO_FANOUT~
+instruccion[1] => ~NO_FANOUT~
+instruccion[2] => ~NO_FANOUT~
+instruccion[3] => ~NO_FANOUT~
+instruccion[4] => ~NO_FANOUT~
+instruccion[5] => ~NO_FANOUT~
+instruccion[6] => ~NO_FANOUT~
+instruccion[7] => ~NO_FANOUT~
+instruccion[8] => ~NO_FANOUT~
+salida[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= salida[1].DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= salida[2].DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= salida[3].DB_MAX_OUTPUT_PORT_TYPE
+salida[4] <= salida[4].DB_MAX_OUTPUT_PORT_TYPE
+salida[5] <= salida[5].DB_MAX_OUTPUT_PORT_TYPE
+salida[6] <= salida[6].DB_MAX_OUTPUT_PORT_TYPE
+salida[7] <= salida[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

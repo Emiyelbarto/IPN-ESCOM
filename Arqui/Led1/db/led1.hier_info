@@ -1,0 +1,5 @@
+|led1
+X0 => Y0.DATAIN
+Y0 <= X0.DB_MAX_OUTPUT_PORT_TYPE
+
+
