@@ -1,0 +1,41 @@
+body
+{
+  background-color: #c2d6d6;
+  color: #000000;
+  font-family: Arial;
+}
+
+div.encabezado
+{
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+img.encabezado
+{
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 4px 4px #A5A5A5;
+}
+
+p.descripcion
+{
+  font-size: 1.5rem;
+}
+
+h1.contenido
+{
+  text-align: left;
+  text-decoration: underline;
+}
+
+p.contenido
+{
+  text-align: left;
+  padding-left: 1rem;
+}

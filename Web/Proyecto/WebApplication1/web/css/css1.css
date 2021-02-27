@@ -1,0 +1,729 @@
+body{
+    background-color: #DF7401;
+}
+
+/* Login */
+
+#tablaLogin{
+    margin: auto;
+}
+
+#btnIngresar{
+    background-color: #FFCE29;
+    border-color: #FFCE29;
+    color: #FFFF1F;
+    width: 90px;
+    padding: 3px 2px 2px 2px;
+}
+
+#btnIngresar:hover{
+    cursor: pointer;
+}
+
+#lnkRegistrarUsuario{
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.campoSinFoco{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.campoConFoco{
+    background: #D7DF01;
+    border: 1px solid #000000;
+}
+
+
+/* Registrar usuario */
+
+.primeraColumna{
+    text-align: right;
+}
+
+#frmRegistrarUsuario{
+    background-color: #DBA901;
+}
+
+#tablaRegistrarUsuario{
+    margin: auto;
+}
+
+#btnCancelar{
+    width: 100px;
+    background-color: #BC0C0C;
+    border-color: #BC0C0C;
+    color: #FFFFFF;
+    padding: 3px 2px 2px 2px;
+}
+
+#btnRegistrar{
+    width: 100px;
+    background-color: #011490;
+    border-color: #011490;
+    color: #FFFFFF;
+    padding: 3px 2px 2px 2px;
+}
+
+.Botones{
+    text-align: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+/* Catalogo */
+
+#frmCabecera{
+    background-color: #DBA901;
+}
+
+#tablaCabecera{
+    margin: auto;
+}
+
+#tablaCatalogo{
+    margin: auto;
+}
+
+.link{
+    color: #1013D0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.BotonModificar{
+    background-color: #10E414;
+    color: #000000;
+    width: 90px;
+    border-color: #10E414;
+    padding: 3px 2px 2px 2px;
+}
+
+.BotonADD{
+    background-color: #82F7F2;
+    color: #FFFFFF;
+    width: 100px;
+    border-color: #82F7F2;
+    padding: 3px 2px 2px 2px;
+}
+
+.BotonModificar:hover{
+    cursor: pointer;
+}
+
+.BotonADD:hover{
+    cursor: pointer;
+}
+
+
+/* Menu administrador */
+
+#tablaAdministrador{
+    margin: auto;
+    width: 1000px;
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+#tablaAdministrador th{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#tablaAdministrador th{
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+#tablaAdministrador td{
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+}
+
+
+/* Registrar Clase producto */
+
+#frmRegistrarCP{
+    background-color: #DBA901;
+}
+
+#tablaRegistrarCP{
+    margin: auto;
+}
+
+
+/* Registrar Marca producto */
+
+#frmRegistrarMP{
+    background-color: #DBA901;
+}
+
+#tablaRegistrarMP{
+    margin: auto;
+}
+
+
+/* Registrar producto */
+
+#frmRegistrarProd{
+    background-color: #DBA901;
+}
+
+#tablaRegistrarProd{
+    margin: auto;
+}
+
+
+/* Mostrar clase producto */
+
+.Titulo{
+    background-color: #FF8000;
+}
+
+#frmMostrarCabeceraCP{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraCP{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraCP td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoCP{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoCP td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaMostrarCuerpoCP th{
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+.Opcion{
+    width: 5%;
+}
+
+#btnModificar{
+    background-color: #FFCE29;
+    color: #000000;
+    width: 90px;
+    border-color: #FFCE29;
+    padding: 3px 2px 2px 2px;
+}
+
+#btnEliminar{
+    background-color: #F21400;
+    color: #FFFFFF;
+    width: 90px;
+    border-color: #F21400;
+    padding: 3px 2px 2px 2px;
+}
+
+
+/* Mostrar marca producto */
+
+#frmMostrarCabeceraMP{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraMP{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraMP td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoMP{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoMP th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoMP td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar productos */
+
+#frmMostrarCabeceraProd{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraProd{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraProd td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoProd{
+    margin: auto;
+    width: 95%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoProd th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoProd td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar clase productos eliminados */
+
+#btnRecuperar{
+    background-color: #FFF300;
+    color: #000000;
+    width: 100px;
+    border-color: #FFF300;
+    padding: 3px 2px 2px 2px;
+}
+
+#frmMostrarCabeceraCPEliminados{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraCPEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraCPEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoCPEliminados{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoCPEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoCPEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar marca productos eliminados */
+
+#frmMostrarCabeceraMPEliminados{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraMPEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraMPEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoMPEliminados{
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoMPEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoMPEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar productos eliminados */
+
+#frmMostrarCabeceraProdEliminados{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraProdEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraProdEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoProdEliminados{
+    margin: auto;
+    width: 95%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoProdEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoProdEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar ventas */
+
+#btnDetalle{
+    background-color: #E3D800;
+    color: #000000;
+    width: 100px;
+    border-color: #E3D800;
+    padding: 3px 2px 2px 2px;
+}
+
+#frmMostrarCabeceraVenta{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraVenta{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraVenta td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoVenta{
+    margin: auto;
+    width: 70%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar detalle venta */
+
+#tablaRegresar{
+    margin: auto;
+}
+
+#frmMostrarDetalleVenta{
+    background-color: #88F9FF;
+}
+
+#tablaMostrarDetalleVenta{
+    margin: auto;
+    width: 70%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarDetalleVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tablaMostrarDetalleVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaMostrarDetalleVenta div{
+    text-align: right;
+}
+
+.TituloDV{
+    background-color: #BDBDBD;
+}
+
+.FilaEnBlanco{
+    background-color: #CCCCCD;
+}
+
+.Contenido{
+    background-color: #FFFFFF;
+}
+
+#frmMostrarDatosCliente{
+    background-color: #ACEEFE;
+}
+
+#tablaMostrarDatosCliente{
+    margin: auto;
+}
+
+
+/* Modificar usuario */
+
+#frmModificarUsuario{
+    background-color: #DBA901;
+}
+
+#tablaModificarUsuario{
+    margin: auto;
+}
+
+.Enlace{
+    font-size: 14px;
+    color: #D11B03;
+}
+
+#btnGuardar{
+    background-color: #0206F0;
+    color: #FFFFFF;
+    width: 100px;
+    border-color: #0206F0;
+    padding: 3px 2px 2px 2px;
+}
+
+
+/* Modificar email del usuario */
+
+#frmModificarEmail{
+    background-color: #DBA901;
+}
+
+#tablaModificarEmail{
+    margin: auto;
+}
+
+
+/* Modificar contraseña del usuario */
+
+#frmModificarClave{
+    background-color: #DBA901;
+}
+
+#tablaModificarClave{
+    margin: auto;
+}
+
+
+/* Añadir a carrito */
+
+#frmAnadirCarrito{
+    background-color: #DBA901;
+}
+
+#tablaAnadirCarrito{
+    margin: auto;
+}
+
+
+/* Registrar venta */
+
+#frmRegistrarVenta{
+    background-color: #DBA901;
+}
+
+#tablaRegistrarVenta{
+    margin: auto;
+    width: 85%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaRegistrarVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaRegistrarVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaRegistrarVenta div{
+    text-align: right;
+}
+
+#btnRegistrarVenta{
+    background-color: #10E414;
+    color: #000000;
+    width: 150px;
+    border-color: #10E414;
+    padding: 4px 3px 3px 3px;
+}
+
+
+/* Modificar CP */
+
+#frmModificarCP{
+    background-color: #DBA901;
+}
+
+#tablaModificarCP{
+    margin: auto;
+}
+
+
+/* Modificar MP */
+
+#frmModificarMP{
+    background-color: #DBA901;
+}
+
+#tablaModificarMP{
+    margin: auto;
+}
+
+
+/* Modificar producto */
+
+#frmModificarProd{
+    background-color: #DBA901;
+}
+
+#tablaModificarProd{
+    margin: auto;
+}
+
+
+/* Mostrar Usuario Habilitados */
+
+
+#frmMostrarCabeceraUsuario{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraUsuario{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraUsuario td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoUsuario{
+    margin: auto;
+    width: 85%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoUsuario th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoUsuario td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+
+/* Mostrar Usuarios Eliminados */
+
+#frmMostrarCabeceraUsuarioEliminados{
+    background-color: #DBA901;
+}
+
+#tablaMostrarCabeceraUsuarioEliminados{
+    margin: auto;
+}
+
+#tablaMostrarCabeceraUsuarioEliminados td{
+    text-align: center;
+}
+
+#tablaMostrarCuerpoUsuarioEliminados{
+    margin: auto;
+    width: 80%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarCuerpoUsuarioEliminados th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaMostrarCuerpoUsuarioEliminados td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+#frmCatalogo #tablaCatalogo tr th p {
+	color: #0080C0;
+}
+#frmCabecera {
+	color: #CAF10E;
+}
+#frmCabecera div {
+	color: #80FF00;
+}
+#frmCabecera div img {
+	color: #16F16D;
+}
+#frmCatalogo #tablaCatalogo tr th p br {
+	color: #FE364A;
+}
+#frmCatalogo #tablaCatalogo tr td {
+	color: #E84263;
+}
+#frmLogin p {
+	color: #00F;
+}
+#frmCatalogo p strong {
+	color: #004080;
+}
+#frmCabecera #tablaCabecera tr td h1 {
+	color: #0000A0;
+}
+#frmCabecera {
+	color: #000;
+}

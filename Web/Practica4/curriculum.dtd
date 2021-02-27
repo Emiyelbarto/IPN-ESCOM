@@ -1,0 +1,3 @@
+<!ELEMENT curriculum (seccion+)>
+<!ELEMENT seccion (#PCDATA)>
+<!ATTLIST curriculum imagen CDATA #REQUIRED>

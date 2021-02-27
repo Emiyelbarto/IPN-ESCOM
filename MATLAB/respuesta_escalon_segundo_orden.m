@@ -1,0 +1,10 @@
+t = [0:0.2:20]'; 
+wn = 1;
+num = wn^2;
+d = 0.5; 
+den = [1,2*d*wn,wn^2]; 
+ye = step (num,den,t); 
+plot (t,ye); 
+title ('Respuesta a un escalo’n unitario'); 
+xlabel ('tiempo(seg)'); 
+grid;

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="curriculum.xsl"?>
+<!DOCTYPE animalia SYSTEM "curriculum.dtd" >
+<curriculum imagen="foto.png">
+	<seccion nombre="Datos">
+		<valor nombre="NombreCompleto">
+			<contenido>José Emiliano Pérez Garduño</contenido>
+		</valor>
+		<valor nombre="Ocupacion">
+			<contenido>Desarrolador Web</contenido>
+		</valor>
+		<valor nombre="Direccion">
+			<contenido>San Pedro Xalpa, MX</contenido>
+		</valor>
+		<valor nombre="correo">
+			<contenido>eperez@ipn.com.mx</contenido>
+		</valor>
+	</seccion>
+	<seccion nombre="Biografia">
+		<valor nombre="ValorBiografia">
+			<contenido>Soy un estudiante de 21 años que estudia en la CDMX por parte del Politécnico. He realizado varios trabajos profesionales para análisis de CyberSeguridad desde el 2 año de la carrera, aprendiendo a inovar con las herramientas disponibles y creando nuevas.
+</contenido>
+		</valor>
+	</seccion>
+	<seccion nombre="Habilidades">
+		<valor nombre="ValorHabilidades">
+			<contenido>HTML5/CSS</contenido>
+		</valor>
+		<valor nombre="ValorHabilidades">
+			<contenido>JavaScript y Jquery</contenido>
+		</valor>
+		<valor nombre="ValorHabilidades">
+			<contenido>PHP</contenido>
+		</valor>
+		<valor nombre="ValorHabilidades">
+			<contenido>DJANGO</contenido>
+		</valor>
+		<valor nombre="ValorHabilidades">
+			<contenido>MySQL</contenido>
+		</valor>
+	</seccion>
+	<seccion nombre="Formacion">
+		<valor nombre="ValorInformacion">
+			<contenido>Ingeniería en Sistemas Computacionales en la Escuela Superior de Cómputo, Instituto Politécnico Nacional</contenido>
+		</valor>
+	</seccion>
+	<seccion  nombre="Experiencia">
+		<valor nombre="ValorExperiencia">
+			<contenido>Programador Web de PostechIT Solutions 2018 - Presente</contenido>
+		</valor>
+	</seccion>
+</curriculum>
